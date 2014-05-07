@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SoftwareHSBDModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="SoftwareHSBDModelStoreContainer">
+          <EntitySet Name="TCAMA" EntityType="SoftwareHSBDModel.Store.TCAMA" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="TCAMA">
+          <Key>
+            <PropertyRef Name="CODCAM" />
+          </Key>
+          <Property Name="CODCAM" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="ESTCAM" Type="varchar" MaxLength="20" />
+          <Property Name="NOMBPAC" Type="varchar" MaxLength="20" />
+          <Property Name="NOMBEMF" Type="varchar" MaxLength="20" />
+          <Property Name="TIMEIN" Type="varchar" MaxLength="20" />
+          <Property Name="TIMEOFF" Type="varchar" MaxLength="20" />
+          <Property Name="TIMEACT" Type="varchar" MaxLength="20" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SoftwareHSBDModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SoftwareHSBDEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="TCAMA" EntityType="SoftwareHSBDModel.TCAMA" />
+        </EntityContainer>
+        <EntityType Name="TCAMA">
+          <Key>
+            <PropertyRef Name="CODCAM" />
+          </Key>
+          <Property Name="CODCAM" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="ESTCAM" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="NOMBPAC" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="NOMBEMF" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="TIMEIN" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="TIMEOFF" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="TIMEACT" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SoftwareHSBDModelStoreContainer" CdmEntityContainer="SoftwareHSBDEntities">
+          <EntitySetMapping Name="TCAMA">
+            <EntityTypeMapping TypeName="SoftwareHSBDModel.TCAMA">
+              <MappingFragment StoreEntitySet="TCAMA">
+                <ScalarProperty Name="CODCAM" ColumnName="CODCAM" />
+                <ScalarProperty Name="ESTCAM" ColumnName="ESTCAM" />
+                <ScalarProperty Name="NOMBPAC" ColumnName="NOMBPAC" />
+                <ScalarProperty Name="NOMBEMF" ColumnName="NOMBEMF" />
+                <ScalarProperty Name="TIMEIN" ColumnName="TIMEIN" />
+                <ScalarProperty Name="TIMEOFF" ColumnName="TIMEOFF" />
+                <ScalarProperty Name="TIMEACT" ColumnName="TIMEACT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

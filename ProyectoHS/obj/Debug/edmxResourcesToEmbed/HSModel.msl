@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SoftwareHSBDModelStoreContainer" CdmEntityContainer="SoftwareHSBDEntities">
+    <EntitySetMapping Name="TCAMA">
+      <EntityTypeMapping TypeName="SoftwareHSBDModel.TCAMA">
+        <MappingFragment StoreEntitySet="TCAMA">
+          <ScalarProperty Name="CODCAM" ColumnName="CODCAM" />
+          <ScalarProperty Name="ESTCAM" ColumnName="ESTCAM" />
+          <ScalarProperty Name="NOMBPAC" ColumnName="NOMBPAC" />
+          <ScalarProperty Name="NOMBEMF" ColumnName="NOMBEMF" />
+          <ScalarProperty Name="TIMEIN" ColumnName="TIMEIN" />
+          <ScalarProperty Name="TIMEOFF" ColumnName="TIMEOFF" />
+          <ScalarProperty Name="TIMEACT" ColumnName="TIMEACT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

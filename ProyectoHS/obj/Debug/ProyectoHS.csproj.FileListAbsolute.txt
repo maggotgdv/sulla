@@ -1,0 +1,34 @@
+c:\users\jeanpaul\documents\visual studio 2013\Projects\ProyectoHS\ProyectoHS\bin\Debug\ProyectoHS.exe.config
+C:\Users\JeanPaul\documents\visual studio 2013\Projects\ProyectoHS\ProyectoHS\bin\Debug\ProyectoHS.exe
+C:\Users\JeanPaul\documents\visual studio 2013\Projects\ProyectoHS\ProyectoHS\bin\Debug\ProyectoHS.pdb
+C:\Users\JeanPaul\documents\visual studio 2013\Projects\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.csprojResolveAssemblyReference.cache
+C:\Users\JeanPaul\documents\visual studio 2013\Projects\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.Form1.resources
+C:\Users\JeanPaul\documents\visual studio 2013\Projects\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.Properties.Resources.resources
+C:\Users\JeanPaul\documents\visual studio 2013\Projects\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.csproj.GenerateResource.Cache
+C:\Users\JeanPaul\documents\visual studio 2013\Projects\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.exe
+C:\Users\JeanPaul\documents\visual studio 2013\Projects\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.pdb
+C:\Users\JeanPaul\documents\visual studio 2013\Projects\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.AsigEnfermera.resources
+F:\ProyectoHS\ProyectoHS\bin\Debug\ProyectoHS.exe.config
+F:\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.exe
+F:\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.pdb
+F:\ProyectoHS\ProyectoHS\bin\Debug\ProyectoHS.exe
+F:\ProyectoHS\ProyectoHS\bin\Debug\ProyectoHS.pdb
+F:\ProyectoHS\ProyectoHS\bin\Debug\EntityFramework.dll
+F:\ProyectoHS\ProyectoHS\bin\Debug\EntityFramework.xml
+F:\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.csprojResolveAssemblyReference.cache
+F:\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.AsigEnfermera.resources
+F:\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.Form1.resources
+F:\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.Properties.Resources.resources
+F:\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.csproj.GenerateResource.Cache
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\bin\Debug\ProyectoHS.exe.config
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.exe
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.pdb
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\bin\Debug\ProyectoHS.exe
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\bin\Debug\ProyectoHS.pdb
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\bin\Debug\EntityFramework.dll
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\bin\Debug\EntityFramework.xml
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.csprojResolveAssemblyReference.cache
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.AsigEnfermera.resources
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.Form1.resources
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.Properties.Resources.resources
+C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.csproj.GenerateResource.Cache

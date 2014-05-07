@@ -1,0 +1,12 @@
+F:\ProyectoHS\HSServicios\obj\Debug\HSServicios.csprojResolveAssemblyReference.cache
+F:\ProyectoHS\HSServicios\bin\Debug\HSServicios.dll.config
+F:\ProyectoHS\HSServicios\bin\Debug\HSServicios.dll
+F:\ProyectoHS\HSServicios\bin\Debug\HSServicios.pdb
+F:\ProyectoHS\HSServicios\obj\Debug\HSServicios.dll
+F:\ProyectoHS\HSServicios\obj\Debug\HSServicios.pdb
+C:\Users\alejandro\Documents\ProyectoHS\HSServicios\bin\Debug\HSServicios.dll.config
+C:\Users\alejandro\Documents\ProyectoHS\HSServicios\bin\Debug\HSServicios.dll
+C:\Users\alejandro\Documents\ProyectoHS\HSServicios\bin\Debug\HSServicios.pdb
+C:\Users\alejandro\Documents\ProyectoHS\HSServicios\obj\Debug\HSServicios.csprojResolveAssemblyReference.cache
+C:\Users\alejandro\Documents\ProyectoHS\HSServicios\obj\Debug\HSServicios.dll
+C:\Users\alejandro\Documents\ProyectoHS\HSServicios\obj\Debug\HSServicios.pdb
