@@ -32,3 +32,6 @@ C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.AsigEnfe
 C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.Form1.resources
 C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.Properties.Resources.resources
 C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.csproj.GenerateResource.Cache
+C:\Users\alejandro\Documents\Github repositorios\sulla\ProyectoHS\bin\Debug\ProyectoHS.exe.config
+C:\Users\alejandro\Documents\Github repositorios\sulla\ProyectoHS\obj\Debug\ProyectoHS.exe
+C:\Users\alejandro\Documents\Github repositorios\sulla\ProyectoHS\obj\Debug\ProyectoHS.pdb
