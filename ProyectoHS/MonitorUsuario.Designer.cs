@@ -83,6 +83,8 @@
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
             this.textBox1.Location = new System.Drawing.Point(215, 107);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -92,6 +94,8 @@
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
             this.textBox2.Location = new System.Drawing.Point(215, 143);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -100,6 +104,8 @@
             // 
             // textBox3
             // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.textBox3.ForeColor = System.Drawing.SystemColors.Window;
             this.textBox3.Location = new System.Drawing.Point(215, 179);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
