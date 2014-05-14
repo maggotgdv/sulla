@@ -26,6 +26,7 @@ namespace ProyectoHS
         int[] seg ={1,1,1};
         int[] min ={0,0,0};
         //Label[] arraylbl_timer = new Label();
+        //Button[] arraylbl_timer = new Button();
         ServiceReference1.InterfazHSClient clientevideos = new ServiceReference1.InterfazHSClient(); 
         private string cronometrar(int i){
             string minu="", segu="";
@@ -60,6 +61,7 @@ namespace ProyectoHS
         private void timer2_Tick(object sender, EventArgs e)
         {
             lbltimer2.Text = cronometrar(2);
+            //lbltimer2.Text = cronometrar(2);
         }
         private void ReiniciarTimer1(){
             timer1.Stop();
