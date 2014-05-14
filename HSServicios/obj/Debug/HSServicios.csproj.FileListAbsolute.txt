@@ -10,3 +10,9 @@ C:\Users\alejandro\Documents\ProyectoHS\HSServicios\bin\Debug\HSServicios.pdb
 C:\Users\alejandro\Documents\ProyectoHS\HSServicios\obj\Debug\HSServicios.csprojResolveAssemblyReference.cache
 C:\Users\alejandro\Documents\ProyectoHS\HSServicios\obj\Debug\HSServicios.dll
 C:\Users\alejandro\Documents\ProyectoHS\HSServicios\obj\Debug\HSServicios.pdb
+C:\Users\Ernesto\Documents\GitHub\sulla\HSServicios\bin\Debug\HSServicios.dll.config
+C:\Users\Ernesto\Documents\GitHub\sulla\HSServicios\bin\Debug\HSServicios.dll
+C:\Users\Ernesto\Documents\GitHub\sulla\HSServicios\bin\Debug\HSServicios.pdb
+C:\Users\Ernesto\Documents\GitHub\sulla\HSServicios\obj\Debug\HSServicios.csprojResolveAssemblyReference.cache
+C:\Users\Ernesto\Documents\GitHub\sulla\HSServicios\obj\Debug\HSServicios.dll
+C:\Users\Ernesto\Documents\GitHub\sulla\HSServicios\obj\Debug\HSServicios.pdb

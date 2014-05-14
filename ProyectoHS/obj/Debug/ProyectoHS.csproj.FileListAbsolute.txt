@@ -35,3 +35,15 @@ C:\Users\alejandro\Documents\ProyectoHS\ProyectoHS\obj\Debug\ProyectoHS.csproj.G
 C:\Users\alejandro\Documents\Github repositorios\sulla\ProyectoHS\bin\Debug\ProyectoHS.exe.config
 C:\Users\alejandro\Documents\Github repositorios\sulla\ProyectoHS\obj\Debug\ProyectoHS.exe
 C:\Users\alejandro\Documents\Github repositorios\sulla\ProyectoHS\obj\Debug\ProyectoHS.pdb
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\bin\Debug\ProyectoHS.exe.config
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\obj\Debug\ProyectoHS.exe
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\obj\Debug\ProyectoHS.pdb
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\bin\Debug\ProyectoHS.exe
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\bin\Debug\ProyectoHS.pdb
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\bin\Debug\EntityFramework.dll
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\bin\Debug\EntityFramework.xml
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\obj\Debug\ProyectoHS.csprojResolveAssemblyReference.cache
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\obj\Debug\ProyectoHS.AsigEnfermera.resources
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\obj\Debug\ProyectoHS.Form1.resources
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\obj\Debug\ProyectoHS.Properties.Resources.resources
+C:\Users\Ernesto\Documents\GitHub\sulla\ProyectoHS\obj\Debug\ProyectoHS.csproj.GenerateResource.Cache
