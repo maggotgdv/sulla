@@ -61,6 +61,7 @@
             this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarCamasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignarEnfermeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -397,11 +398,22 @@
             this.asignarEnfermeraToolStripMenuItem.Text = "Asignar Enfermera";
             this.asignarEnfermeraToolStripMenuItem.Click += new System.EventHandler(this.asignarEnfermeraToolStripMenuItem_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 457);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(303, 33);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Monitor de Usuario";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1124, 502);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -459,6 +471,7 @@
         private System.Windows.Forms.Button btnatender2;
         private System.Windows.Forms.Button btnfin3;
         private System.Windows.Forms.Button btnatender3;
+        private System.Windows.Forms.Button button1;
     }
 }
 

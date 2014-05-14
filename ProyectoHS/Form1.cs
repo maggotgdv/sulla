@@ -12,6 +12,7 @@ namespace ProyectoHS
 {
     public partial class Form1 : Form
     {
+        MonitorUsuario Form_MU;
         public Form1()
         {
             InitializeComponent();
@@ -188,6 +189,12 @@ namespace ProyectoHS
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form_MU = new MonitorUsuario();
+            Form_MU.Show();
         }
 
     }
