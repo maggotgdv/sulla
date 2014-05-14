@@ -102,6 +102,7 @@ namespace ProyectoHS
                 lbltimer1.Visible = false;
                 btnatender1.Visible = false;
                 objSub.UpdateClient("v1");
+                //manada color rojo
                 
             }
             if (e.KeyCode == Keys.W)
