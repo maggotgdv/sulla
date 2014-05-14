@@ -36,17 +36,29 @@ namespace ProyectoHS
         {
             switch (_color)
             {
-                case "RED":
+                case "cama1":
                     txt.BackColor = Color.Red;
+                    txt.Text = "Ocupado";
                     break;
-                case "BLUE":
-                    txt.BackColor = Color.Blue;
+                case "cama2":
+                    txt.BackColor = Color.Red;
+                    txt.Text = "Ocupado";
                     break;
-                case "GREEN":
+                case "cama3":
+                    txt.BackColor = Color.Red;
+                    txt.Text = "Ocupado";
+                    break;
+                case "v1":
                     txt.BackColor = Color.Green;
+                    txt.Text = "Libre";
                     break;
-                default:
-                    txt.BackColor = Color.Gray;
+                case "v2":
+                    txt.BackColor = Color.Green;
+                    txt.Text = "Libre";
+                    break;
+                case "v3":
+                    txt.BackColor = Color.Green;
+                    txt.Text = "Libre";
                     break;
             }
         }

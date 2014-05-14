@@ -13,9 +13,15 @@ namespace ProyectoHS
     public partial class Form1 : Form
     {
         MonitorUsuario Form_MU;
+        private Subject objSub;
+        private Subject objSub2;
+        private Subject objSub3;
         public Form1()
         {
             InitializeComponent();
+            objSub = new Subject();
+            objSub2 = new Subject();
+            objSub3 = new Subject();
         }
         int[] seg ={1,1,1};
         int[] min ={0,0,0};
@@ -82,6 +88,7 @@ namespace ProyectoHS
                 lbl1_2.Visible = true;
                 lbltimer1.Visible = true;
                 btnatender1.Visible = true;
+                objSub.UpdateClient("cama1");
             }
             if (e.KeyCode == Keys.A)
             {
@@ -90,6 +97,8 @@ namespace ProyectoHS
                 lbl1_2.Visible = false;
                 lbltimer1.Visible = false;
                 btnatender1.Visible = false;
+                objSub.UpdateClient("v1");
+                
             }
             if (e.KeyCode == Keys.W)
             {
@@ -98,6 +107,7 @@ namespace ProyectoHS
                 lbl2_2.Visible = true;
                 lbltimer2.Visible = true;
                 btnatender2.Visible = true;
+                objSub2.UpdateClient("cama2");
             }
             if (e.KeyCode == Keys.S)
             {
@@ -106,6 +116,7 @@ namespace ProyectoHS
                 lbltimer2.Visible = false;
                 btnatender2.Visible = false;
                 ReiniciarTimer2();
+                objSub2.UpdateClient("v2");
             }
             if (e.KeyCode == Keys.E)
             {
@@ -114,6 +125,7 @@ namespace ProyectoHS
                 lbl3_2.Visible = true;
                 lbltimer3.Visible = true;
                 btnatender3.Visible = true;
+                objSub3.UpdateClient("cama3");
             }
             if (e.KeyCode == Keys.D)
             {
@@ -122,6 +134,7 @@ namespace ProyectoHS
                 lbl3_2.Visible = false;
                 lbltimer3.Visible = false;
                 btnatender3.Visible = false;
+                objSub3.UpdateClient("v3");
             }
         }
 
@@ -191,9 +204,9 @@ namespace ProyectoHS
 
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void monitoriar(object sender, EventArgs e)
         {
-            Form_MU = new MonitorUsuario();
+            Form_MU = new MonitorUsuario(objSub,objSub2,objSub3);
             Form_MU.Show();
         }
 
