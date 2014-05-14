@@ -16,5 +16,10 @@ namespace ProyectoHS
         {
             InitializeComponent();
         }
+
+        private void MonitorUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
