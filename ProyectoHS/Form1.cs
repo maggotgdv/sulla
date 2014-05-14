@@ -27,6 +27,8 @@ namespace ProyectoHS
         int[] min ={0,0,0};
         //Label[] arraylbl_timer = new Label();
         //Button[] arraylbl_timer = new Button();
+        //INgresar numero de camas
+        int camas = 0;
         ServiceReference1.InterfazHSClient clientevideos = new ServiceReference1.InterfazHSClient(); 
         private string cronometrar(int i){
             string minu="", segu="";
