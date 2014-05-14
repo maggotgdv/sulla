@@ -18,6 +18,7 @@ namespace ProyectoHS
         }
         int[] seg ={1,1,1};
         int[] min ={0,0,0};
+        //Label[] arraylbl_timer = new Label();
         ServiceReference1.InterfazHSClient clientevideos = new ServiceReference1.InterfazHSClient(); 
         private string cronometrar(int i){
             string minu="", segu="";
