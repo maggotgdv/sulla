@@ -71,10 +71,9 @@
             // 
             this.namec1.AutoSize = true;
             this.namec1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namec1.Location = new System.Drawing.Point(44, 16);
-            this.namec1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.namec1.Location = new System.Drawing.Point(59, 20);
             this.namec1.Name = "namec1";
-            this.namec1.Size = new System.Drawing.Size(145, 20);
+            this.namec1.Size = new System.Drawing.Size(180, 25);
             this.namec1.TabIndex = 0;
             this.namec1.Text = "Juan Perez Gomez";
             // 
@@ -88,18 +87,18 @@
             this.panel1.Controls.Add(this.lbl1_2);
             this.panel1.Controls.Add(this.lbl1_1);
             this.panel1.Controls.Add(this.namec1);
-            this.panel1.Location = new System.Drawing.Point(16, 51);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(21, 63);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(227, 158);
+            this.panel1.Size = new System.Drawing.Size(303, 194);
             this.panel1.TabIndex = 1;
             // 
             // btnfin1
             // 
-            this.btnfin1.Location = new System.Drawing.Point(114, 130);
-            this.btnfin1.Margin = new System.Windows.Forms.Padding(2);
+            this.btnfin1.Location = new System.Drawing.Point(152, 160);
+            this.btnfin1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnfin1.Name = "btnfin1";
-            this.btnfin1.Size = new System.Drawing.Size(56, 19);
+            this.btnfin1.Size = new System.Drawing.Size(75, 23);
             this.btnfin1.TabIndex = 6;
             this.btnfin1.Text = "Finalizar";
             this.btnfin1.UseVisualStyleBackColor = true;
@@ -108,10 +107,10 @@
             // 
             // btnatender1
             // 
-            this.btnatender1.Location = new System.Drawing.Point(53, 130);
-            this.btnatender1.Margin = new System.Windows.Forms.Padding(2);
+            this.btnatender1.Location = new System.Drawing.Point(71, 160);
+            this.btnatender1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnatender1.Name = "btnatender1";
-            this.btnatender1.Size = new System.Drawing.Size(56, 19);
+            this.btnatender1.Size = new System.Drawing.Size(75, 23);
             this.btnatender1.TabIndex = 5;
             this.btnatender1.Text = "Atender";
             this.btnatender1.UseVisualStyleBackColor = true;
@@ -122,30 +121,28 @@
             // 
             this.lbltimer1.AutoSize = true;
             this.lbltimer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltimer1.Location = new System.Drawing.Point(138, 101);
-            this.lbltimer1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbltimer1.Location = new System.Drawing.Point(184, 124);
             this.lbltimer1.Name = "lbltimer1";
-            this.lbltimer1.Size = new System.Drawing.Size(43, 15);
+            this.lbltimer1.Size = new System.Drawing.Size(49, 18);
             this.lbltimer1.TabIndex = 4;
             this.lbltimer1.Text = "00:00";
             this.lbltimer1.Visible = false;
             // 
             // txtenfermera1
             // 
-            this.txtenfermera1.Location = new System.Drawing.Point(26, 72);
-            this.txtenfermera1.Margin = new System.Windows.Forms.Padding(2);
+            this.txtenfermera1.Location = new System.Drawing.Point(35, 89);
+            this.txtenfermera1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtenfermera1.Name = "txtenfermera1";
-            this.txtenfermera1.Size = new System.Drawing.Size(155, 20);
+            this.txtenfermera1.Size = new System.Drawing.Size(205, 22);
             this.txtenfermera1.TabIndex = 3;
             this.txtenfermera1.Visible = false;
             // 
             // lbl1_2
             // 
             this.lbl1_2.AutoSize = true;
-            this.lbl1_2.Location = new System.Drawing.Point(25, 101);
-            this.lbl1_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl1_2.Location = new System.Drawing.Point(33, 124);
             this.lbl1_2.Name = "lbl1_2";
-            this.lbl1_2.Size = new System.Drawing.Size(95, 13);
+            this.lbl1_2.Size = new System.Drawing.Size(127, 17);
             this.lbl1_2.TabIndex = 2;
             this.lbl1_2.Text = "Tiempo en espera:";
             this.lbl1_2.Visible = false;
@@ -153,10 +150,9 @@
             // lbl1_1
             // 
             this.lbl1_1.AutoSize = true;
-            this.lbl1_1.Location = new System.Drawing.Point(23, 55);
-            this.lbl1_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl1_1.Location = new System.Drawing.Point(31, 68);
             this.lbl1_1.Name = "lbl1_1";
-            this.lbl1_1.Size = new System.Drawing.Size(63, 13);
+            this.lbl1_1.Size = new System.Drawing.Size(83, 17);
             this.lbl1_1.TabIndex = 1;
             this.lbl1_1.Text = "Asignado a:";
             this.lbl1_1.Visible = false;
@@ -187,18 +183,18 @@
             this.panel2.Controls.Add(this.lbl2_2);
             this.panel2.Controls.Add(this.lbl2_1);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Location = new System.Drawing.Point(308, 51);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Location = new System.Drawing.Point(411, 63);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(227, 158);
+            this.panel2.Size = new System.Drawing.Size(303, 194);
             this.panel2.TabIndex = 5;
             // 
             // btnfin2
             // 
-            this.btnfin2.Location = new System.Drawing.Point(118, 130);
-            this.btnfin2.Margin = new System.Windows.Forms.Padding(2);
+            this.btnfin2.Location = new System.Drawing.Point(157, 160);
+            this.btnfin2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnfin2.Name = "btnfin2";
-            this.btnfin2.Size = new System.Drawing.Size(56, 19);
+            this.btnfin2.Size = new System.Drawing.Size(75, 23);
             this.btnfin2.TabIndex = 8;
             this.btnfin2.Text = "Finalizar";
             this.btnfin2.UseVisualStyleBackColor = true;
@@ -207,10 +203,10 @@
             // 
             // btnatender2
             // 
-            this.btnatender2.Location = new System.Drawing.Point(58, 130);
-            this.btnatender2.Margin = new System.Windows.Forms.Padding(2);
+            this.btnatender2.Location = new System.Drawing.Point(77, 160);
+            this.btnatender2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnatender2.Name = "btnatender2";
-            this.btnatender2.Size = new System.Drawing.Size(56, 19);
+            this.btnatender2.Size = new System.Drawing.Size(75, 23);
             this.btnatender2.TabIndex = 7;
             this.btnatender2.Text = "Atender";
             this.btnatender2.UseVisualStyleBackColor = true;
@@ -221,10 +217,9 @@
             // 
             this.namec2.AutoSize = true;
             this.namec2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namec2.Location = new System.Drawing.Point(38, 16);
-            this.namec2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.namec2.Location = new System.Drawing.Point(51, 20);
             this.namec2.Name = "namec2";
-            this.namec2.Size = new System.Drawing.Size(152, 20);
+            this.namec2.Size = new System.Drawing.Size(189, 25);
             this.namec2.TabIndex = 5;
             this.namec2.Text = "Ernesto Calderon C.";
             this.namec2.Click += new System.EventHandler(this.namec2_Click);
@@ -233,30 +228,28 @@
             // 
             this.lbltimer2.AutoSize = true;
             this.lbltimer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltimer2.Location = new System.Drawing.Point(138, 101);
-            this.lbltimer2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbltimer2.Location = new System.Drawing.Point(184, 124);
             this.lbltimer2.Name = "lbltimer2";
-            this.lbltimer2.Size = new System.Drawing.Size(43, 15);
+            this.lbltimer2.Size = new System.Drawing.Size(49, 18);
             this.lbltimer2.TabIndex = 4;
             this.lbltimer2.Text = "00:00";
             this.lbltimer2.Visible = false;
             // 
             // txtenfermera2
             // 
-            this.txtenfermera2.Location = new System.Drawing.Point(26, 72);
-            this.txtenfermera2.Margin = new System.Windows.Forms.Padding(2);
+            this.txtenfermera2.Location = new System.Drawing.Point(35, 89);
+            this.txtenfermera2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtenfermera2.Name = "txtenfermera2";
-            this.txtenfermera2.Size = new System.Drawing.Size(155, 20);
+            this.txtenfermera2.Size = new System.Drawing.Size(205, 22);
             this.txtenfermera2.TabIndex = 3;
             this.txtenfermera2.Visible = false;
             // 
             // lbl2_2
             // 
             this.lbl2_2.AutoSize = true;
-            this.lbl2_2.Location = new System.Drawing.Point(25, 101);
-            this.lbl2_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl2_2.Location = new System.Drawing.Point(33, 124);
             this.lbl2_2.Name = "lbl2_2";
-            this.lbl2_2.Size = new System.Drawing.Size(95, 13);
+            this.lbl2_2.Size = new System.Drawing.Size(127, 17);
             this.lbl2_2.TabIndex = 2;
             this.lbl2_2.Text = "Tiempo en espera:";
             this.lbl2_2.Visible = false;
@@ -264,10 +257,9 @@
             // lbl2_1
             // 
             this.lbl2_1.AutoSize = true;
-            this.lbl2_1.Location = new System.Drawing.Point(23, 55);
-            this.lbl2_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl2_1.Location = new System.Drawing.Point(31, 68);
             this.lbl2_1.Name = "lbl2_1";
-            this.lbl2_1.Size = new System.Drawing.Size(63, 13);
+            this.lbl2_1.Size = new System.Drawing.Size(83, 17);
             this.lbl2_1.TabIndex = 1;
             this.lbl2_1.Text = "Asignado a:";
             this.lbl2_1.Visible = false;
@@ -276,10 +268,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(-458, -89);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(-611, -110);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(169, 20);
+            this.label7.Size = new System.Drawing.Size(209, 25);
             this.label7.TabIndex = 0;
             this.label7.Text = "Javier Ramirez Gomez";
             // 
@@ -293,18 +284,18 @@
             this.panel3.Controls.Add(this.lbl3_2);
             this.panel3.Controls.Add(this.lbl3_1);
             this.panel3.Controls.Add(this.namec3);
-            this.panel3.Location = new System.Drawing.Point(607, 51);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Location = new System.Drawing.Point(809, 63);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(227, 158);
+            this.panel3.Size = new System.Drawing.Size(303, 194);
             this.panel3.TabIndex = 5;
             // 
             // btnfin3
             // 
-            this.btnfin3.Location = new System.Drawing.Point(118, 130);
-            this.btnfin3.Margin = new System.Windows.Forms.Padding(2);
+            this.btnfin3.Location = new System.Drawing.Point(157, 160);
+            this.btnfin3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnfin3.Name = "btnfin3";
-            this.btnfin3.Size = new System.Drawing.Size(56, 19);
+            this.btnfin3.Size = new System.Drawing.Size(75, 23);
             this.btnfin3.TabIndex = 10;
             this.btnfin3.Text = "Finalizar";
             this.btnfin3.UseVisualStyleBackColor = true;
@@ -313,10 +304,10 @@
             // 
             // btnatender3
             // 
-            this.btnatender3.Location = new System.Drawing.Point(58, 130);
-            this.btnatender3.Margin = new System.Windows.Forms.Padding(2);
+            this.btnatender3.Location = new System.Drawing.Point(77, 160);
+            this.btnatender3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnatender3.Name = "btnatender3";
-            this.btnatender3.Size = new System.Drawing.Size(56, 19);
+            this.btnatender3.Size = new System.Drawing.Size(75, 23);
             this.btnatender3.TabIndex = 9;
             this.btnatender3.Text = "Atender";
             this.btnatender3.UseVisualStyleBackColor = true;
@@ -327,30 +318,28 @@
             // 
             this.lbltimer3.AutoSize = true;
             this.lbltimer3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltimer3.Location = new System.Drawing.Point(138, 101);
-            this.lbltimer3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbltimer3.Location = new System.Drawing.Point(184, 124);
             this.lbltimer3.Name = "lbltimer3";
-            this.lbltimer3.Size = new System.Drawing.Size(43, 15);
+            this.lbltimer3.Size = new System.Drawing.Size(49, 18);
             this.lbltimer3.TabIndex = 4;
             this.lbltimer3.Text = "00:00";
             this.lbltimer3.Visible = false;
             // 
             // txtenfermera3
             // 
-            this.txtenfermera3.Location = new System.Drawing.Point(26, 72);
-            this.txtenfermera3.Margin = new System.Windows.Forms.Padding(2);
+            this.txtenfermera3.Location = new System.Drawing.Point(35, 89);
+            this.txtenfermera3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtenfermera3.Name = "txtenfermera3";
-            this.txtenfermera3.Size = new System.Drawing.Size(155, 20);
+            this.txtenfermera3.Size = new System.Drawing.Size(205, 22);
             this.txtenfermera3.TabIndex = 3;
             this.txtenfermera3.Visible = false;
             // 
             // lbl3_2
             // 
             this.lbl3_2.AutoSize = true;
-            this.lbl3_2.Location = new System.Drawing.Point(25, 101);
-            this.lbl3_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl3_2.Location = new System.Drawing.Point(33, 124);
             this.lbl3_2.Name = "lbl3_2";
-            this.lbl3_2.Size = new System.Drawing.Size(95, 13);
+            this.lbl3_2.Size = new System.Drawing.Size(127, 17);
             this.lbl3_2.TabIndex = 2;
             this.lbl3_2.Text = "Tiempo en espera:";
             this.lbl3_2.Visible = false;
@@ -358,10 +347,9 @@
             // lbl3_1
             // 
             this.lbl3_1.AutoSize = true;
-            this.lbl3_1.Location = new System.Drawing.Point(23, 55);
-            this.lbl3_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl3_1.Location = new System.Drawing.Point(31, 68);
             this.lbl3_1.Name = "lbl3_1";
-            this.lbl3_1.Size = new System.Drawing.Size(63, 13);
+            this.lbl3_1.Size = new System.Drawing.Size(83, 17);
             this.lbl3_1.TabIndex = 1;
             this.lbl3_1.Text = "Asignado a:";
             this.lbl3_1.Visible = false;
@@ -370,10 +358,9 @@
             // 
             this.namec3.AutoSize = true;
             this.namec3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namec3.Location = new System.Drawing.Point(44, 16);
-            this.namec3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.namec3.Location = new System.Drawing.Point(59, 20);
             this.namec3.Name = "namec3";
-            this.namec3.Size = new System.Drawing.Size(145, 20);
+            this.namec3.Size = new System.Drawing.Size(182, 25);
             this.namec3.TabIndex = 0;
             this.namec3.Text = "Alejandro Aguirre K";
             // 
@@ -383,8 +370,8 @@
             this.opcionesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(843, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1124, 28);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -394,33 +381,33 @@
             this.editarCamasToolStripMenuItem,
             this.asignarEnfermeraToolStripMenuItem});
             this.opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
-            this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
             this.opcionesToolStripMenuItem.Text = "Opciones";
             // 
             // editarCamasToolStripMenuItem
             // 
             this.editarCamasToolStripMenuItem.Name = "editarCamasToolStripMenuItem";
-            this.editarCamasToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.editarCamasToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
             this.editarCamasToolStripMenuItem.Text = "Editar Camas";
             // 
             // asignarEnfermeraToolStripMenuItem
             // 
             this.asignarEnfermeraToolStripMenuItem.Name = "asignarEnfermeraToolStripMenuItem";
-            this.asignarEnfermeraToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.asignarEnfermeraToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
             this.asignarEnfermeraToolStripMenuItem.Text = "Asignar Enfermera";
             this.asignarEnfermeraToolStripMenuItem.Click += new System.EventHandler(this.asignarEnfermeraToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 408);
+            this.ClientSize = new System.Drawing.Size(1124, 502);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
