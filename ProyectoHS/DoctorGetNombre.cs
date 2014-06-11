@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProyectoHS
 {
-    public interface IDoctor
+    class DoctorGetNombre:GetNombre
     {
-        void SetNombreDoc(String nombredoc);
-    }
-    public interface GetNombre
-    {
-        String getNombre();
+        public String getNombre()
+        {
+            return "Bienvenido doctor";
+        }
     }
 }
