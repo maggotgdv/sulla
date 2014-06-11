@@ -63,7 +63,7 @@ namespace ProyectoHS
             }
         }
     }
-
+    //Clase subject para la Dependency
     public class Subject
     {
         ArrayList arrObs = new ArrayList();

@@ -16,6 +16,8 @@ namespace ProyectoHS
         private Subject objSub;
         private Subject objSub2;
         private Subject objSub3;
+        private Doctor doctor;
+        //D: Dependency Injection -> Construction Injection
         public Form1()
         {
             InitializeComponent();
@@ -210,5 +212,13 @@ namespace ProyectoHS
             Form_MU.Show();
         }
 
+        private void DocButton_Click(object sender, EventArgs e)
+        {
+            Doc_Label.Text = "Bienvenido Doctor"+textBoxdoc.Text.ToString();
+            textBoxdoc.Visible = false;
+            DocButton.Visible = false;
+        }
+
     }
+
 }

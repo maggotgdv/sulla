@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProyectoHS
 {
-    public interface Sujeto
+    public interface IDoctor
     {
+        void SetNombreDoc(String nombredoc);
     }
 }

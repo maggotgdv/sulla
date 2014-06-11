@@ -62,6 +62,9 @@
             this.editarCamasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignarEnfermeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
+            this.Doc_Label = new System.Windows.Forms.Label();
+            this.textBoxdoc = new System.Windows.Forms.TextBox();
+            this.DocButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -409,11 +412,39 @@
             this.button1.Click += new System.EventHandler(this.monitoriar);
             this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             // 
+            // Doc_Label
+            // 
+            this.Doc_Label.AutoSize = true;
+            this.Doc_Label.Location = new System.Drawing.Point(806, 465);
+            this.Doc_Label.Name = "Doc_Label";
+            this.Doc_Label.Size = new System.Drawing.Size(0, 17);
+            this.Doc_Label.TabIndex = 8;
+            // 
+            // textBoxdoc
+            // 
+            this.textBoxdoc.Location = new System.Drawing.Point(12, 429);
+            this.textBoxdoc.Name = "textBoxdoc";
+            this.textBoxdoc.Size = new System.Drawing.Size(155, 22);
+            this.textBoxdoc.TabIndex = 9;
+            // 
+            // DocButton
+            // 
+            this.DocButton.Location = new System.Drawing.Point(173, 420);
+            this.DocButton.Name = "DocButton";
+            this.DocButton.Size = new System.Drawing.Size(142, 32);
+            this.DocButton.TabIndex = 10;
+            this.DocButton.Text = "Agregar Doctor";
+            this.DocButton.UseVisualStyleBackColor = true;
+            this.DocButton.Click += new System.EventHandler(this.DocButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1124, 502);
+            this.Controls.Add(this.DocButton);
+            this.Controls.Add(this.textBoxdoc);
+            this.Controls.Add(this.Doc_Label);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -473,6 +504,9 @@
         private System.Windows.Forms.Button btnfin3;
         private System.Windows.Forms.Button btnatender3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label Doc_Label;
+        private System.Windows.Forms.TextBox textBoxdoc;
+        private System.Windows.Forms.Button DocButton;
     }
 }
 
