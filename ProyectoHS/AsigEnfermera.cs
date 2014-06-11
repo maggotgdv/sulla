@@ -22,8 +22,20 @@ namespace ProyectoHS
 
         private void btnenviar_Click(object sender, EventArgs e)
         {
+            Visor a = new Visor();
+            a.Imprimir(txtnombre.Text+" en cama, " + txtCama.Text);
             this.Close();
             this.Dispose();
+        }
+    }
+    //O Open/Close Principle
+    public abstract class Display { 
+        public abstract void Imprimir(string txt); 
+    }
+    public class Visor : Display {
+        public override void Imprimir(string texto)
+        {
+            MessageBox.Show(texto);
         }
     }
 }
